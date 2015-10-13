@@ -10,7 +10,7 @@ var server = http.createServer(fileServingHandler); //add a simple file serving 
 
 
 mob.addChannel('SimpleChat', __dirname+'/simpleChat/simpleChatChannel.js');
-mob.addChannel('DuckPond', __dirname+'/duckPond/duckPondChannel.js');
+mob.addChannel('DuckPond', __dirname+'/duckpond/duckPondChannel.js');
 
 mob.init(server);
 
